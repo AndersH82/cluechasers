@@ -102,10 +102,61 @@ i {
 
 /* base.html */
 
-body {
+.base {
     background-color: navy;
     color: white;
 }
 
 
 /* home.html */
+
+
+/* login.html */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.card {
+    width: 400px;
+    height: 320px;
+    padding-top: 20px;
+    align-items: center;
+    background-color: navy;
+    border: 3px solid goldenrod;
+    color: white;
+}
+
+h2.login {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+body.d-flex {
+    background-color: navy;
+    color: white;
+}
+
+label {
+    display: block;
+}
+
+button.login {
+    background-color: navy;
+    border-color: goldenrod;
+    color: white;
+    margin-left: 60px;
+    border-bottom: 4px solid goldenrod;
+    border-right: 4px solid goldenrod;
+
+}
+
+button.login:hover {
+    background-color: blue;
+    border-color: goldenrod;
+    color: white;
+    margin-left: 60px;
+}

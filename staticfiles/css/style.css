@@ -102,10 +102,27 @@ i {
 
 /* base.html */
 
-body {
+body.base {
     background-color: navy;
     color: white;
 }
 
 
 /* home.html */
+
+
+/* login.html */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+div.card {
+    background-color: navy;
+    border: 3px solid goldenrod;
+    color: black;
+    margin-top: 50px;
+}
