@@ -72,6 +72,7 @@ a.dropdown-item:hover {
 div.offcanvas {
     background-color: navy;
     border-right:3px solid goldenrod;
+    border-top:3px solid goldenrod;
     color: white;
     margin-top: 86px;
 }
@@ -99,11 +100,33 @@ i {
     color: goldenrod;
 }
 
+.card-logo {
+    width: 400px;
+    height: auto;
+    background-color: navy;
+    border-right: 3px solid goldenrod;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+.card-img-top {
+    width: 50%;
+    height: auto;
+}
+
+.card-body {
+    background-color: navy;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 /* base.html */
 
 .base {
-    background-color: navy;
+    background-color: white;
     color: white;
 }
 
