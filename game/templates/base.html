@@ -31,6 +31,8 @@
         </div>
     </header>
     <main>
+        {% block content %}
+        {% endblock content %}
         <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Database Information</h5>
@@ -43,6 +45,10 @@
                 <button class="btn btn-sidebar" type="button"><i class="fa-solid fa-ear-listen fa-2x"></i></button>
                 <button class="btn btn-sidebar" type="button"><i class="fa-solid fa-map-location-dot fa-2x"></i></button>
             </div>
+        </div>
+        <div class="contents">
+        {% block front %}
+        {% endblock front %}
         </div>
     </main>
     <footer>
