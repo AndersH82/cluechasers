@@ -15,18 +15,28 @@
             {% include 'navbar.html' %}
             {% endblock nav %}
         </nav>
-        <div class="card-logo">
-            <img src="{% static '\images\logo.png' %}" class="card-img-top" alt="logo">
-            <div class="card-body">
-                <h5 class="card-title">Hello Detective</h5><br>
-                <p class="card-text">Welcome to Clue Chasers, Detective,<br><br>
-                We are excited to have you on board this exciting adventure.<br>
-                Your reputation precedes you and we are confident that your skills will be invaluable in our pursuit of the truth.<br>
-                Here at Clue Chasers, every mystery is a chance to dive deep into the unknown, to uncover secrets that have been hidden for too long.<br>
-                Each clue is a piece of a bigger puzzle, and we know you've got what it takes to piece it together.<br>
-                We look forward to seeing you in action, solving mysteries and bringing clarity where there is only confusion. We know you will make us proud.<br>
-                Good luck with your investigations, and remember that in Clue Chasers, every clue is a door to a new world.<br><br>
-                Sincerely, The Clue Chasers Team</p>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card-logo">
+                    <img src="{% static '\images\logo.png' %}" class="card-img-top" alt="logo">
+                    <div class="card-body">
+                        <h5 class="card-title">Hello Detective</h5><br>
+                        <p class="card-text">Welcome to Clue Chasers, Detective,<br><br>
+                        We are excited to have you on board this exciting adventure.<br>
+                        Your reputation precedes you and we are confident that your skills will be invaluable in our pursuit of the truth.<br>
+                        Here at Clue Chasers, every mystery is a chance to dive deep into the unknown, to uncover secrets that have been hidden for too long.<br>
+                        Each clue is a piece of a bigger puzzle, and we know you've got what it takes to piece it together.<br>
+                        We look forward to seeing you in action, solving mysteries and bringing clarity where there is only confusion. We know you will make us proud.<br>
+                        Good luck with your investigations, and remember that in Clue Chasers, every clue is a door to a new world.<br><br>
+                        Sincerely, The Clue Chasers Team</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="contents">
+                    {% block front %}
+                    {% endblock front %}
+                </div>
             </div>
         </div>
     </header>
@@ -45,10 +55,6 @@
                 <button class="btn btn-sidebar" type="button"><i class="fa-solid fa-ear-listen fa-2x"></i></button>
                 <button class="btn btn-sidebar" type="button"><i class="fa-solid fa-map-location-dot fa-2x"></i></button>
             </div>
-        </div>
-        <div class="contents">
-        {% block front %}
-        {% endblock front %}
         </div>
     </main>
     <footer>

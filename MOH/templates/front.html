@@ -2,8 +2,24 @@
 
 {% load static %}
 
-{% block content %}
-<div class="container">
+{% block front %}
+<link rel="stylesheet" href="{% static 'css/MOH-style.css' %}">
+<h1 class="news"> News </h1><br>
+<h5 class="news">Famous Opera Singer Sofia Lind Found Dead in Her Box<br><br>
+STOCKHOLM - The beloved opera singer Sofia Lind was found dead in her box at the famous opera house in Stockholm, after finishing a fantastic performance.<br>
+Known for her powerful soprano and her ability to perform complex arias with ease and elegance, Sofia had a long and successful career on the operatic stage.<br>
+Sofia was known for her passion for music and her dedication to her profession.<br>
+She spent hours rehearsing every day and was always the first to arrive and the last to leave the opera house.<br>
+She was also known for her generosity and kindness to her colleagues and fans.<br>
+The autopsy revealed that she died of an overdose of a rare poison.<br>
+This suggests that her death was the result of murder rather than an accident or natural causes.<br>
+Police have launched an investigation to determine the circumstances surrounding her death.<br>
+Sofia's box, a private place where she could rest and prepare for her performances,<br>
+was conveniently located near the stage and was equipped with everything she needed,<br>
+including a dressing table, a wardrobe for her costumes and a small sitting area where she could relax.<br>
+We will continue to update this story as more information becomes available.<br>
+Our thoughts go out to Sofia Lind's family, friends and fans during this difficult time.</h5>
+<div class="tidning">
     <img src="{% static 'images/Tidning1.png' %}" alt="tidning" class="tidning">
 </div>
 {% endblock %}

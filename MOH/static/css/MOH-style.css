@@ -1,4 +1,21 @@
 .container {
-    background-color: aquamarine;
+    background-color: white;
     color: black;
+}
+
+h1.news {
+    margin-left: 300px;
+    font-size: 70px;
+    color: black;
+}
+
+.contents {
+    color: black;
+}
+.tidning {
+    margin-left: 100px;
+}
+
+h5.news {
+    margin-left: 100px;
 }
